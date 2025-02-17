@@ -55,7 +55,7 @@ A segurança e a privacidade dos nossos usuários são nossa prioridade. As den�
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Helelys/S.O.S-Fauna
+   git clone https://github.com/DanielleFS/S.O.S-Fauna-Front
 
 
 ## 🌟 Colaboradores
