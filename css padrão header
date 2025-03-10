@@ -1,0 +1,53 @@
+/* Resetando margens e preenchimentos do HTML e body */
+html, body {
+  margin: 0; /* Remove qualquer margem padrão */
+  padding: 0; /* Remove qualquer padding padrão */
+  height: 100%; /* Garantir que o body ocupe toda a altura */
+}
+
+/* Estilo geral para o corpo */
+.App {
+  font-family: Arial, sans-serif;
+  height: 100%; /* Garantir que o conteúdo ocupe toda a altura */
+  background-color: #fff; /* Cor de fundo para garantir que não haja bordas visíveis */
+}
+
+/* Barra de navegação */
+.App-header {
+  width: 100%; /* Garantir que ocupe 100% da largura da tela */
+  height: 117px; /* Altura da barra */
+  background-color: #FD7C17; /* Cor laranja */
+  display: flex; /* Alinha os itens em linha */
+  justify-content: center; /* Centraliza a barra de navegação */
+  align-items: center; /* Centraliza verticalmente */
+  padding: 0; /* Remove o padding */
+  box-sizing: border-box; /* Inclui padding no cálculo da largura */
+  border: none; /* Remove bordas */
+}
+
+/* Menu de navegação */
+.navbar {
+  display: flex;
+  justify-content: center; /* Centraliza os itens dentro do menu de navegação */
+  align-items: center;
+  flex: 1; /* Expande para ocupar o espaço disponível */
+}
+
+.navbar ul {
+  display: flex; /* Exibe os itens em linha */
+  margin: 0;
+  padding: 0;
+  list-style-type: none; /* Remove os marcadores de lista */
+  justify-content: center; /* Garante que os itens sejam centralizados */
+  gap: 40px; /* Aumenta o espaço entre os botões */
+}
+
+.navbar li {
+  margin-right: 40px; /* Aumenta o espaçamento entre os itens */
+}
+
+/* Estilo do logo */
+.logo {
+  height: 80px; /* Tamanho da logo */
+  width: auto; /* Mantém a proporção da logo */
+}
