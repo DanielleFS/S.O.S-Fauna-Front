@@ -5,7 +5,7 @@
 }
 
 .textQuemSomos {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 5% 15%;
 }
 
@@ -35,7 +35,10 @@
 
 .membros h4 {
     color: #FD7C17;
-    font-size: 1.2rem;
+}
+
+.membros p {
+    font-size: small;
 }
 
 .secIntegrantes {
@@ -51,9 +54,9 @@
 }
 
 
-.textrodape{
-    font-size: 1.3rem;
+.textrodape {
+    font-size: 1.1rem;
     text-align: center;
-    margin: 5% 30%;
-    
+    margin: 6% 30%;
+
 }
