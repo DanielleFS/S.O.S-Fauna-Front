@@ -1,13 +1,13 @@
 import '../styles/QuemSomos.css'
 import Integrante from '../components/Integrante'
-import ftArmando from '../assets/armando.png'
-import ftArthur from '../assets/arthur.png'
-import ftDani from '../assets/dani.jpg'
-import ftIsa from '../assets/isa.png'
-import ftLuiz from '../assets/luiz.png'
-import ftMaycon from '../assets/maycon.png'
-import ftTallys from '../assets/tallys.png'
-import ftWlad from '../assets/wlad.png'
+import ftArmando from '../assets/integrantes/armando.png'
+import ftArthur from '../assets/integrantes/arthur.png'
+import ftDani from '../assets/integrantes/dani.jpg'
+import ftIsa from '../assets/integrantes/isa.png'
+import ftLuiz from '../assets/integrantes/luiz.png'
+import ftMaycon from '../assets/integrantes/maycon.png'
+import ftTallys from '../assets/integrantes/tallys.png'
+import ftWlad from '../assets/integrantes/wlad.png'
 
 
 function QuemSomos() {
@@ -29,7 +29,8 @@ function QuemSomos() {
 
             <div className='NossoTime'>
                 <h1>Nosso Time</h1>
-
+                
+                {/* confirmar se vai retirar da página */}
                 {/* <p>Idealizadores do projeto</p> */}
             </div>
 
