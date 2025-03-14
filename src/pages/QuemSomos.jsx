@@ -8,6 +8,7 @@ import ftLuiz from '../assets/integrantes/luiz.png'
 import ftMaycon from '../assets/integrantes/maycon.png'
 import ftTallys from '../assets/integrantes/tallys.png'
 import ftWlad from '../assets/integrantes/wlad.png'
+import logoPata from '../assets/logo-pag.png'
 
 
 function QuemSomos() {
@@ -15,8 +16,12 @@ function QuemSomos() {
     return (
 
         <div>
+            <div className='imgPata'>
+                <img src={logoPata} alt="logo pata" />
+            </div>
 
             <div className='textQuemSomos'>
+
                 <h1>Quem Somos</h1>
 
                 <p>Somos uma plataforma dedicada à proteção e ao bem-estar dos animais, criada com o propósito de ser uma ponte entre aqueles que testemunham situações de maus-tratos e as autoridades ou organizações competentes para agir. Acreditamos que cada denúncia é um passo importante para construir um mundo mais justo e humano, onde todos os seres vivos sejam tratados com respeito e dignidade.</p><br />
@@ -29,7 +34,7 @@ function QuemSomos() {
 
             <div className='NossoTime'>
                 <h1>Nosso Time</h1>
-                
+
                 {/* confirmar se vai retirar da página */}
                 {/* <p>Idealizadores do projeto</p> */}
             </div>

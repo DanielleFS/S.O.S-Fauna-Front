@@ -6,12 +6,20 @@
 
 .textQuemSomos {
     font-size: 1.1rem;
-    margin: 5% 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
 }
 
 .textQuemSomos h1 {
     color: #FD7C17;
     margin-bottom: 1.5rem;
+}
+
+.imgPata {
+    position: absolute;
+    top: 0%;
+    right: 0%;
 }
 
 .NossoTime {
